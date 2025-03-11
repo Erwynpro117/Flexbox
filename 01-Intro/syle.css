@@ -1,0 +1,19 @@
+.container {
+    padding: 1rem;
+    background-color: aquamarine;
+    display: flex;
+}
+
+.item {
+    background-color: blue;
+}
+
+.item-flex {
+    background-color: #fff;
+
+    display: flex;
+}
+.item-flex > h2 {
+    color: cadetblue;
+    background-color: cornflowerblue;
+}
