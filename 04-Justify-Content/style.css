@@ -1,0 +1,30 @@
+body {
+    background-color: darkslateblue;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+
+
+    margin: 0 auto;
+    height: 500px;
+    width: 500px;
+    background-color: darkred;
+}
+
+.item {
+    text-align: center;
+    padding-top: 46px;
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+}

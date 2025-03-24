@@ -1,0 +1,27 @@
+
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+
+    margin: 0%;
+    max-width: 960px;
+    height: 960px;
+    background-color: darkmagenta;
+    background-color: aquamarine;
+}
+
+.item {
+    text-align: center;
+    padding-top: 36px;
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    border: 1px solid darkblue;
+}
