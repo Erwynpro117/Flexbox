@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: nowrap;
+
+    flex-wrap: wrap;
+    gap: 26px;
+
+    width: 500px;
+    height: 500px;
+    background-color: darkcyan;
+    padding: 16px 0;
+}
+
+.item {
+    width: 150px;
+    background-color: darkblue
+}
