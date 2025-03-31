@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aquamarine;
+}
+
+.container {
+display: flex;
+flex-direction: row;
+flex-direction: column;
+
+background-color: blueviolet;
+}
+
+.item {
+    flex-basis: 100px;
+
+    background-color: cadetblue;
+    border: 1px solid red;
+}
+
+.item-1 {
+    flex-basis: 50px;
+}
+
+.item-2 {
+    flex-basis: 40px;
+}
+
+.item-3 {
+    flex-basis: 4rem;
+}
+
+.item-4 {
+    flex-basis: 8rem;
+}

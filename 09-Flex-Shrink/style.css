@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkblue;
+}
+
+.container {
+    display: flex;
+    background-color: cadetblue;
+}
+
+.item {
+    background-color: black;
+    border: 1px solid darkgoldenrod;
+}
+
+.item-1 {
+    width: 250px;
+    flex-shrink: 0;
+}
+.item-2 {
+    flex-shrink: 1;
+}
+.item-3 {
+    flex-shrink: 2;
+}
+.item-4 {
+    flex-shrink: 3;
+}
