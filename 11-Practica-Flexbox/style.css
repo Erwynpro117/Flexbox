@@ -8,3 +8,71 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: blue;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: aqua;
+    border-bottom: 1px solid darkturquoise;
+}
+
+h1 {
+    background-color: darkgreen;
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+    background-color: darkviolet;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    background-color: crimson;
+}
+
+aside {
+    background-color: bisque;
+}
+
+section {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: deepskyblue;
+}
+
+.card {
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: hotpink;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: indigo;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkmagenta;
+}
+
+.copyright {
+    background-color: blueviolet;
+}
+
+.socialmedia {
+    background-color: firebrick;
+}
